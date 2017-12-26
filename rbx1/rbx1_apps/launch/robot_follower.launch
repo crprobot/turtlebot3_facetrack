@@ -1,0 +1,6 @@
+<launch>
+   
+     <include file="$(find usb_cam)/launch/usb_cam.launch" />
+     <include file="$(find rbx1_vision)/launch/camshift.launch" />
+     <include file="$(find rbx1_apps)/launch/object_follower.launch" />
+</launch>

@@ -1,0 +1,11 @@
+<launch>
+  <node pkg="rbx1_apps" name="object_tracker" type="object_tracker.py" output="screen">
+    <rosparam>
+       rate: 30
+       max_rotation_speed: 1.8
+       min_rotation_speed: 0.3
+       x_threshold: 0.12
+       gain: 1.5
+    </rosparam>
+  </node>
+</launch>
